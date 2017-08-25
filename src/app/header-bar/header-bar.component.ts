@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavOption } from '../navOption';
+import { FacebookLoginComponent } from '../facebook-login/facebook-login.component';
 
 @Component({
   selector: 'app-header-bar',

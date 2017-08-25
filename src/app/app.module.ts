@@ -22,6 +22,7 @@ import { ModuleDetailComponent } from './module-detail/module-detail.component';
 import { ReviewListItemComponent } from './review-list-item/review-list-item.component';
 import { ReviewListComponent } from './review-list/review-list.component';
 import { ModuleReviewFormComponent } from './module-review-form/module-review-form.component';
+import { FacebookLoginComponent } from './facebook-login/facebook-login.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ModuleReviewFormComponent } from './module-review-form/module-review-fo
     ReviewListItemComponent,
     ReviewListComponent,
     ModuleReviewFormComponent,
+    FacebookLoginComponent,
   ],
   imports: [
     BrowserModule,
